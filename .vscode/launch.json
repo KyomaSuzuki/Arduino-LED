@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "name": "(Windows) 起動",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "プログラム名を入力してください (例: ${workspaceFolder}/a.exe)",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/kyoma/Library/CloudStorage/GoogleDrive-ksuzuki@ice.iit.tsukuba.ac.jp/マイドライブ/sketch/LED",
+      "program": "/Users/kyoma/Library/CloudStorage/GoogleDrive-ksuzuki@ice.iit.tsukuba.ac.jp/マイドライブ/sketch/LED/build/Debug/outDebug"
+    }
+  ],
+  "version": "2.0.0"
+}
